@@ -2,34 +2,36 @@
 <html>
   <head>
      <title>Oskar's Portfolio</title>
-     <link rel="stylesheet" href="/resources/style.css">
+     <link rel="stylesheet" href="resources/style.css">
    </head>
    <body>
      <header>
-         <div>
+         <div class="header">
              <h1>Personal Portfolio</h1>
-         </div>
-         <nav>
-             <ul>
-                 <li><a href="#about">About</a></li>
-                 <li><a href="#projects">Projects</a></li>
-                 <li><a href="#kontakt">Kontakt</a></li>
-             </ul>
-         </nav>
+             <nav class="nav">
+                 <p class="navlist"><a href="#about">  About  </a></p>
+                 <p class="navlist"><a href="#projects">  Projects  </a></p>
+                 <p class="navlist"><a href="#kontakt">  Kontakt  </a></p>
+             </nav>
+         </div>  
      </header>
      <main>
-        <div id="about">
-            <h2>Oskar Hallmans</h2>
-            <img src="" alt="Picture of me">
-            <div>
-                <p>My name is Oskar Hallmans i'am 29 years old born in 1992.</br> I'am born and raised in Vallentuna it's locate 30 kilometers outside Swedens capital Stockholm
-                where i still live today.<br> I have hade alot of diffrent jobs but the last couple of years i have been on sick leave. <br>
-                My education is not relate to computers or programming i'am self learen trough testing and some classes on codecademy website.</p>
+        <div id="about" class="about">
+            <img src="resources\pictures\IMG_0363.jpg" alt="Picture of Me"
+            width="300px" height="300px" class="aboutpicture">
+            <div class="abouttext">
+                <h2 class="aboutheadline">Oskar Hallmans</h2>
+                <p>My name is Oskar Hallmans i'am 29 years old born in 1992.
+                <br>I'am born and raised in Vallentuna it's locate 30 kilometers outside
+                <br>of Swedens capital Stockholm where i still live today.
+                <br>I have hade alot of diffrent jobs but the last couple of years i have been on sick leave. 
+                <br>My education is not relate to computers or programming i'am self learen trough testing and
+                 <br> some classes on codecademy website.</p>
             </div>
         </div>
-        <div id="projects">
-            <h2>My Work</h2> 
-            <div>
+        <div id="projects" class="contanier">
+            <h2 class="mywork">My Work</h2> 
+            <div class="projekt">
                 <h3>Projects</h3>
                 <ul>
                     <li>Dasmotos <a href=""></a></li>
@@ -38,8 +40,8 @@
                     <li>Random Message <a href=""></a></li>
                 </ul>
             </div>
-            <div>
-                <h3>Descriptions</h3>
+           <h3>Descriptions</h3> 
+           <div class="descript">
                 <ul>
                     <li>Training html/css</li>
                     <li>Training html/css</li>
